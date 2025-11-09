@@ -174,6 +174,8 @@ function M.get_input_pattern(prompt, maxchar, opts)
         local generated = jump_target_gtr(opts)
         hint.set_hint_preview(hs.preview_ns, generated.jump_targets)
       end
+    elseif opts and #pat == 0 then
+      clear_namespace(hs.buf_list, hs.preview_ns)
     end
 
     api.nvim_echo({}, false, {})
