@@ -207,6 +207,7 @@ function M.get_input_pattern(prompt, maxchar, opts)
 
   if opts then
     clear_namespace(hs.buf_list, hs.preview_ns)
+    clear_namespace(hs.buf_list, hs.dim_ns)
     -- quit only when got nothin for pattern to avoid blink of highlight
     if not pat then
       M.quit(hs)
