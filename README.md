@@ -25,7 +25,7 @@ target in your document reachable in a few keystrokes.
   <img src="https://user-images.githubusercontent.com/506592/176885253-5f618593-77c5-4843-9101-a9de30f0a022.png"/>
 </p>
 
-This is a fork of the [original hop.nvim repo](https://github.com/phaazon/hop.nvim)
+This is a fork of [smoka7's hop.nvim repo](https://github.com/smoka7/hop.nvim)
 
 # Features
 
@@ -47,6 +47,23 @@ This is a fork of the [original hop.nvim repo](https://github.com/phaazon/hop.nv
 - Extensible: provide your own jump targets and create Hop extensions!
 
 # Installation
+
+## Using nvim-plug
+
+```lua
+require('plug').add({
+  'wsdjeg/hop.nvim',
+  keys = {
+    { 'n', '<leader>jl', '<cmd>HopLine<cr>', { silent = true, desc = 'hop jump line' } },
+    { 'n', '<leader>jj', '<cmd>HopChar1<cr>', { silent = true, desc = 'hop jump char' } },
+    { 'n', '<leader>j/', '<cmd>HopPattern<cr>', { silent = true, desc = 'hop jump pattern' } },
+  },
+  cmds = { 'HopPattern', 'HopLine', 'HopChar1' },
+  opts = { match_mappings = { 'zh', 'zh_sc' } },
+  dev = true,
+  desc = "eric's forked hop.nvim",
+})
+```
 
 ## Using lazy.nvim
 
