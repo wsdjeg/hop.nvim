@@ -7,11 +7,11 @@
                                       · Neovim motions on speed! ·
 
 <p align="center">
-  <img src="https://img.shields.io/github/issues/smoka7/hop.nvim?color=cyan&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/issues-pr/smoka7/hop.nvim?color=green&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/contributors-anon/smoka7/hop.nvim?color=blue&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/last-commit/smoka7/hop.nvim?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/v/tag/smoka7/hop.nvim?color=pink&label=release&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues/wsdjeg/hop.nvim?color=cyan&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues-pr/wsdjeg/hop.nvim?color=green&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/contributors-anon/wsdjeg/hop.nvim?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/last-commit/wsdjeg/hop.nvim?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/v/tag/wsdjeg/hop.nvim?color=pink&label=release&style=for-the-badge"/>
 </p>
 
 **Hop** is an [EasyMotion](https://github.com/easymotion/vim-easymotion)-like plugin allowing you to jump anywhere in a
@@ -100,9 +100,6 @@ the last one**. If you are not, then you are exposed to compatibility issues / b
 This plugin implements [SemVer] via git tags. Versions are prefixed with a `v`. You are **advised** to use a major version
 dependency to be sure your config will not break when Hop gets updated.
 
-# Usage
-
-See the [wiki](https://github.com/smoka7/hop.nvim/wiki).
 
 # Keybindings
 
