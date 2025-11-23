@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/github/contributors-anon/wsdjeg/hop.nvim?color=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/github/last-commit/wsdjeg/hop.nvim?style=for-the-badge"/>
   <img src="https://img.shields.io/github/v/tag/wsdjeg/hop.nvim?color=pink&label=release&style=for-the-badge"/>
-  <img src="https://img.shields.io/luarocks/v/wsdjeg/hop.nvim"/>
+  <img src="https://img.shields.io/luarocks/v/wsdjeg/hop.nvim?style=for-the-badge"/>
 </p>
 
 **Hop** is an [EasyMotion](https://github.com/easymotion/vim-easymotion)-like plugin allowing you to jump anywhere in a
@@ -89,6 +89,12 @@ use {
     require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
   end
 }
+```
+
+## Using luarocks
+
+```
+luarocks install hop.nvim
 ```
 
 ## Supported Neovim versions
