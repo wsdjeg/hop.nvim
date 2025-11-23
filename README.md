@@ -147,3 +147,6 @@ end, {remap=true})
 * [leap.nvim](https://github.com/ggandor/leap.nvim)
 * [flash.nvim](https://github.com/folke/flash.nvim)
 
+## License
+
+This project is licensed under the GPL-3.0 License after commit 707049f.
