@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.1](https://github.com/wsdjeg/hop.nvim/compare/v2.8.0...v2.8.1) (2025-11-23)
+
+
+### Bug Fixes
+
+* update license ([979f7d7](https://github.com/wsdjeg/hop.nvim/commit/979f7d77672018c94b19bce34c0d94024e71ef11))
+
 ## [2.8.0](https://github.com/wsdjeg/hop.nvim/compare/v2.7.2...v2.8.0) (2025-11-23)
 
 
