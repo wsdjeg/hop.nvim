@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.9.0](https://github.com/wsdjeg/hop.nvim/compare/v2.8.1...v2.9.0) (2026-04-12)
+
+
+### Features
+
+* add display_prompt option to control prompt visibility ([45580b9](https://github.com/wsdjeg/hop.nvim/commit/45580b90c03cc020d1f93a66ca5718b1be88d5a1)), closes [#4](https://github.com/wsdjeg/hop.nvim/issues/4)
+* support togged motion inclusive ([5664af5](https://github.com/wsdjeg/hop.nvim/commit/5664af5653a02bccce3634e403092f56a2ce685f))
+
 ## [2.8.1](https://github.com/wsdjeg/hop.nvim/compare/v2.8.0...v2.8.1) (2025-11-23)
 
 
